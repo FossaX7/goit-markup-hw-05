@@ -74,9 +74,7 @@ body {
 /* ----------------HEADER------------- */
 
 .header {
-  max-width: 1600px;
   border-bottom: 1px solid #ececec;
-  margin: auto;
 }
 
 .header > .container {
@@ -339,9 +337,7 @@ body {
 /* ----------------TEAM------------- */
 
 .team {
-  max-width: 1600px;
   background-color: #f5f4fa;
-  margin: auto;
 }
 
 .team-title {
@@ -487,12 +483,10 @@ body {
 /* ----------------FOOTER------------- */
 
 .footer {
-  max-width: 1600px;
   background-color: #2f303a;
 
   padding-top: 60px;
   padding-bottom: 60px;
-  margin: auto;
 }
 
 .footer > .container {
@@ -674,7 +668,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item:hover .portfolio-overlay-text {
+.portfolio-item-link:hover .portfolio-overlay-text, 
+.portfolio-item-link:focus .portfolio-overlay-text {
   transform: translateY(0%);
 }
 
